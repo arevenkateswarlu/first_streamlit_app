@@ -67,7 +67,7 @@ if streamlit.button('Get Fruit Load List:'):
 
 
 ##streamlit.stop()
-streamlit.dataframe(my_data_rows)
+##streamlit.dataframe(my_data_rows)
 streamlit.header("Fruityvice Fruit Advice!")
 def insert_row_snowflake(new_fruit):
   with my_cnx.cusor() as my_cur:
